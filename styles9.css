@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f0f8ff; /* Fallback color */
+    background-image: url('https://i.pinimg.com/564x/09/a6/83/09a683181c1fbce628736b6c469e25c2.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #4caf50;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+.challenge-details {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.challenge-details h2 {
+    color: #4caf50;
+}
+
+button {
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+.how-to-participate {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.leaderboard {
+    margin-top: 2rem;
+}
+
+.leaderboard h2 {
+    color: #4caf50;
+}
+
+.leaderboard ul {
+    list-style: none;
+    padding: 0;
+}
+
+.leaderboard ul li {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: #4caf50;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer .social-media a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* styles9.css */
+
+/* Submission Form */
+.submission-form {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+}
+
+.submission-form h2 {
+    color: #4caf50;
+}
+
+.submission-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.submission-form label {
+    margin: 10px 0 5px;
+}
+
+.submission-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.submission-form button {
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.submission-form button:hover {
+    background: #45a049;
+}

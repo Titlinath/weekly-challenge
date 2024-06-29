@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recycling Challenge | Green Tech</title>
+    <link href="styles9.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1>Join Our Recycling Challenge!</h1>
+            <!-- Inside the <nav> element in header section -->
+            <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Tips.html">Recycling Tips</a></li>
+            <li><a href="Awareness.html">Awareness</a></li>
+            <li><a href="Community.html">Community</a></li>
+            <li><a href="learnmore.html">Learn More</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="profile.html">Profile</a></li> <!-- Profile Link -->
+            <li><a href="quiz.html">Quiz</a></li> <!-- Quiz Link -->
+            <li><a href="feedback.html">Feedback</a></li> <!-- Feedback Link -->
+            <li><a href="logout.html">Logout</a></li> <!-- Logout Link -->
+            </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section class="challenge-details">
+            <h2>Monthly Recycling Challenge</h2>
+            <p>Collect and recycle the most plastic bottles this month for a chance to win eco-friendly prizes!</p>
+            <button id="participateBtn">Join the Challenge</button>
+        </section>
+
+        <section class="how-to-participate">
+            <h2>How to Participate</h2>
+            <ul>
+                <li>Collect plastic bottles and recycle them responsibly.</li>
+                <li>Log your recycled bottles in the submission form.</li>
+                <li>Top recyclers will be featured on the leaderboard!</li>
+            </ul>
+        </section>
+
+        <section class="leaderboard">
+            <h2>Current Leaderboard</h2>
+            <ul id="leaderboardList">
+                <!-- Leaderboard entries will be dynamically added here -->
+            </ul>
+        </section>
+    </main>
+
+    <!-- Add this section under the 'How to Participate' section -->
+<section class="submission-form">
+    <h2>Submit Your Recycled Bottles</h2>
+    <form id="submissionForm">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="bottles">Number of Bottles:</label>
+        <input type="number" id="bottles" name="bottles" required>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Green Tech - Recycling Info Portal</p>
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts9.js"></script>
+</body>
+</html>
